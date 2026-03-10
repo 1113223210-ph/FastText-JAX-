@@ -18,3 +18,6 @@ pip install -r requirements.txt
 
 ## JAX
 利用 JAX 强大的自动微分和即时编译（JIT）功能，构建一个以词向量为基础的分类器。将 FastText 生成的向量作为 embeddings 层的初始化权重，然后在此基础上训练一个简单的分类模型。
+
+## 🔮 未来计划
+将已有的 FastText 词向量和 JAX 分类模型与 RAG（检索增强生成）技术相结合,并与之前的BatteryCurveAnanlyzer相结合。
