@@ -14,3 +14,7 @@
 
 ```bash
 pip install -r requirements.txt
+```
+
+## JAX
+利用 JAX 强大的自动微分和即时编译（JIT）功能，构建一个以词向量为基础的分类器。将 FastText 生成的向量作为 embeddings 层的初始化权重，然后在此基础上训练一个简单的分类模型。
