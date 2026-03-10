@@ -27,5 +27,5 @@ print(model.wv.vectors[:3])
 print(len(model.wv.vectors))
 print(len(model.wv.index_to_key))
 
-embedding = (model.wv["卷积","神经网络"])
+embedding = (model.wv["锂金属","枝晶"])
 print(embedding)
